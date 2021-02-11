@@ -138,12 +138,6 @@ img {
     filter: blur(0);
     transform: scale(1);
 }
-@media (min-width: 320px) and (max-width: 480px) {
-.gallery:hover img{
-        filter: none;
-        transform: none;
-    }
-}
 
 /******************PRICES************************/
 table{
@@ -216,4 +210,14 @@ textarea{
     color: #fff;
 }
 
+/******************** Media Queries *************/
+@media (min-width: 320px) and (max-width: 480px) {
+body{
+  padding: 10px;
+    }
+.gallery:hover img{
+        filter: none;
+        transform: none;
+    }
+  }
 
